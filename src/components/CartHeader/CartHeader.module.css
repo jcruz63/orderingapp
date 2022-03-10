@@ -1,0 +1,20 @@
+.cart-header{
+    color:white;
+    height: 3vh;
+    padding: 1vh 5vw;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:30vw;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.cart-bubble{
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: .75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

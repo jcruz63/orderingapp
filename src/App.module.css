@@ -1,0 +1,24 @@
+.app{
+    background-image: url("background_img.jpg") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #193C40;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.app-main{
+    width:70vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.app-main > h1,p {
+    text-align: center;
+}
