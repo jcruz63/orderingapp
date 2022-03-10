@@ -2,7 +2,7 @@ import React from "react";
 import AppStyle from "./App.module.css";
 import Branding from './Branding.module.css'
 import AppHeader from "./components/AppHeader/AppHeader";
-import Card from "./components/UI/Card";
+import Card from "./components/UI/Card/Card";
 
 let styles = {}
 Object.assign(styles, AppStyle, Branding);
