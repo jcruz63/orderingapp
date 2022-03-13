@@ -1,0 +1,15 @@
+@use "src/brand";
+
+.menuItem {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 10px;
+  h3{
+    margin: 0;
+  }
+
+}
+
+.description{
+    grid-column: span 5;
+}

@@ -3,6 +3,7 @@ import AppStyle from "./App.module.css";
 import Branding from './Branding.module.css'
 import AppHeader from "./components/AppHeader/AppHeader";
 import Card from "./components/UI/Card/Card";
+import Menu from "./components/Menu/Menu";
 
 let styles = {}
 Object.assign(styles, AppStyle, Branding);
@@ -17,6 +18,7 @@ function App() {
                   <p>Choose you favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at home</p>
                   <p>All our meals are cooked with high-quality ingredients, just-in-time and of course by experienced chefs</p>
               </Card>
+              <Menu />
           </div>
       </React.Fragment>
 
