@@ -1,16 +1,20 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import main from './ItemQuantityControl.module.css'
 import branding from '../../Branding.module.css'
+
+
 let styles = {};
 Object.assign(styles, main, branding);
 
 function ItemQuantityControl(props) {
+
+
     return (
-        <div className={styles.quantityControl}>
-            <label>Amount</label>
-            <input type='number' min='0'/>
-            <button className={styles['accent-secondary']}>+Add</button>
-        </div>
+        <form className={styles.quantityControl} onSubmit={props.onItemAdd}>
+            <label htmlFor="qty">Amount</label>
+            <input name="qty" type='number' min='0'defaultValue={0}/>
+            <button type='submit' className={styles['accent-secondary']} >+Add</button>
+        </form>
     );
 }
 
