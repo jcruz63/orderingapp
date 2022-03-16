@@ -2,6 +2,9 @@
 
 This application demonstrates all the skills used to build a frontend React application connected to nodejs/express server and mongoDB, aka MEAN application.
 
+## Current Stage of the Project
+
+I am currently working on the frontend.
 
 ## Available Scripts
 
